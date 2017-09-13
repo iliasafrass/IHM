@@ -1,11 +1,11 @@
 ****************************************************
 *
 *   				TP2 - IHM - 
-*				SwingStates : les guides magnétiques
+*				SwingStates : les guides magnÃ©tiques
 *
 ****************************************************
 
-Binome : Ilias Afrass & Anas Taibi
+Ilias Afrass 
 
 
 
@@ -16,9 +16,9 @@ des maps de CShape et de MagneticGuides pour palier au Tag.
 
 
 Guide d'utilisation :
-	Cliquez Gauche sur le vide		=> 		Créer un guide horizontal.
-	Cliquez Droit sur le vide 	=> 		Créer un guide vertical.
+	Cliquez Gauche sur le vide		=> 		CrÃ©er un guide horizontal.
+	Cliquez Droit sur le vide 	=> 		CrÃ©er un guide vertical.
 	Cliquez Milieu (roulette) sur le vide 		=> 		Cacher les guides.
 	Release le click milieu	(roulette)		=> 		Voir les guides
-	Cliquez Gauche sans Release le boutton sur un objet		=>		 Le déplace
+	Cliquez Gauche sans Release le boutton sur un objet		=>		 Le dÃ©place
 	Cliquez Milieu (roulette) sur un guide horizontal ou vertical 		=>		Supprimer le guide
