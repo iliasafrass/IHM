@@ -5,20 +5,20 @@
 *
 ****************************************************
 
-Binome : Ilias Afrass & Anas Taibi
+Ilias Afrass
 
 
 
-L'objectif de ce TP est d'utiliser le widget canvas et une machine à états de la librairie SwingStates pour créer un bouton et
-aussi visualiser les états.
+L'objectif de ce TP est d'utiliser le widget canvas et une machine Ã  Ã©tats de la librairie SwingStates pour crÃ©er un bouton et
+aussi visualiser les Ã©tats.
 
-les états qu'on a implementé sont :
+les Ã©tats qu'on a implementÃ© sont :
 
 	* stat start			=> l'etat initial
 	
-	* stat over				=> le bord du rectangle s'épaississe lorsque la souris le survole.(on change aussi le text du bouton pr savoir l'état)
+	* stat over				=> le bord du rectangle s'Ã©paississe lorsque la souris le survole.(on change aussi le text du bouton pr savoir l'Ã©tat)
 	
-	* stat pressed			=> le font du rectangle change de couleur(JAUNE) si l'utilisateur enfonce le bouton de la souris au-dessus de lui(on change aussi le text du bouton pr savoir l'état)
+	* stat pressed			=> le font du rectangle change de couleur(JAUNE) si l'utilisateur enfonce le bouton de la souris au-dessus de lui(on change aussi le text du bouton pr savoir l'Ã©tat)
 	
 	* stat hold				=>   le pointeur sort du rectangle.
 	
@@ -28,11 +28,11 @@ les états qu'on a implementé sont :
 	
 	* un double clic qui se transforme en 1 clic et demi => l'etat ou tu clique un clique et 1/2 click.
 	
-	* holding le clic et demi		=> le pointeur sort pendant l'état precedent.
+	* holding le clic et demi		=> le pointeur sort pendant l'Ã©tat precedent.
 							
 	* un demi click					=> l'etat ou on clique 1/2 click.
 	
-	* holding un demi clic			=> le pointeur sort pendant l'état precedent.
+	* holding un demi clic			=> le pointeur sort pendant l'Ã©tat precedent.
 
 
 
