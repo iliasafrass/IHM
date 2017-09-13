@@ -1,0 +1,242 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Taurus Car, votre application de covoiturage</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="application/x-javascript"> addEventListener("load", function() {setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<meta charset utf="8">
+       <!--font-awsome-css-->
+<link rel="stylesheet" href="css/font-awesome.min.css">
+		<!--bootstrap-->
+<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="css/bootstrap-toggle.min.css" rel="stylesheet" type="text/css">
+		<!--custom css-->
+<link href="css/style.css" rel="stylesheet" type="text/css"/>
+<!--component-css-->
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/bootstrap-toggle.min.js"></script>
+			 <!--script-->
+<script src="js/bigSlide.js"></script>
+    <script>
+		$(document).ready(function() {
+		$('.menu-link').bigSlide();
+	});
+    </script>
+            <!--script-->
+<script src="js/responsiveslides.min.js"></script>
+	 <script>
+		$(function () {
+		  $("#slider").responsiveSlides({
+			auto: true,
+			nav: true,
+			speed: 500,
+			namespace: "callbacks",
+			pager: true,
+		  });
+		});
+	  </script>
+		<!--script-->
+		<script src="js/pie-chart.js" type="text/javascript"></script>
+ <script type="text/javascript">
+
+        $(document).ready(function () {
+
+			 $('#demo-pie-1').pieChart({
+                barColor: '#68b828',
+                trackColor: '#E4E2E2',
+                lineCap: 'butt',
+                lineWidth: 10,
+                onStep: function (from, to, percent) {
+                    $(this.element).find('.pie-value').text(Math.round(percent) + '%');
+                }
+            });
+
+            $('#demo-pie-2').pieChart({
+                barColor: '#5bc0de',
+                trackColor: '#E4E2E2',
+                lineCap: 'butt',
+                lineWidth: 10,
+                onStep: function (from, to, percent) {
+                    $(this.element).find('.pie-value').text(Math.round(percent) + '%');
+                }
+            });
+
+            $('#demo-pie-3').pieChart({
+                barColor: '#d9534f',
+                trackColor: '#E4E2E2',
+                lineCap: 'square',
+                lineWidth: 10,
+                onStep: function (from, to, percent) {
+                    $(this.element).find('.pie-value').text(Math.round(percent) + '%');
+                }
+            });
+
+
+        });
+
+    </script>
+<link href='//fonts.googleapis.com/css?family=Josefin+Sans:400,700italic,700,600italic,400italic,600,300italic,300,100italic,100' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<div class="body-back">
+		<div class="masthead pdng-stn1">
+			<div id="menu" class="panel" role="navigation">
+				<div class="wrap-content">
+					<div class="search">
+						<form>
+							<input type="search" value="Recherche" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}" required="">
+							<input type="submit" value=" ">
+						</form>
+					</div>
+					<div class="profile-menu text-center">
+						<img class="img-circle border-effect" src="images/pic3.png" alt=" ">
+							<h3>Robert La porte</h3>
+								<h4><a href="#">Conducteur</a></h4>
+							<div class="social-icon">
+							<ul>
+								<li><a href="#" class="facebook"><i class="fa fa-facebook"></i> facebook</a></li>
+								<li><a href="#" class="twitter"><i class="fa fa-twitter"></i> twitter</a></li>
+								<li><a href="#" class="google"><i class="fa fa-google"></i> google</a></li>
+							</ul>
+							</div>
+					</div>
+				</div>
+			</div>
+			<div class="phone-box wrap push">
+				<div class="menu-notify">
+					<div class="profile-left">
+						<a href="#menu" class="menu-link"><i class="fa fa-chevron-left"></i></a>
+					</div>
+					<div class="Profile-mid">
+						<h7 class="pro-link" style="color:#fff">Chat</h7>
+					</div>
+					<div class="Profile-right">
+						<div id="dd1" class="wrapper-dropdown-1" tabindex="1"><i class="fa fa-gear"></i>
+							<ul class="dropdown">
+                <li><a href="single.html">Tableau de bord </a></li>
+                <li><a href="profil.html">Votre profil </a></li>
+								<li><a href="trajets.html">Vos trajets</a></li>
+                <li><a href="alerte.html">Alertes</a></li>
+                <li><a href="messages.html">Messages</a></li>
+                <li><a href="avis.html">Avis</a></li>
+                <li><a href="devenirPassager.html">Devenir passager</a></li>
+								<li><a href="login.html">Deconnexion</a></li>
+                <li><a href="aide.html">Aide</a></li>
+							</ul>
+								<script type="text/javascript">
+															function DropDown(el) {
+																this.dd = el;
+																this.initEvents();
+															}
+															DropDown.prototype = {
+																initEvents : function() {
+																	var obj = this;
+
+																	obj.dd.on('click', function(event){
+																		$(this).toggleClass('active');
+																		event.stopPropagation();
+																	});
+																}
+															}
+															$(function() {
+
+																var dd = new DropDown( $('#dd1') );
+
+																$(document).click(function() {
+																	// all dropdowns
+																	$('.wrapper-dropdown-1').removeClass('active');
+																});
+
+															});
+								</script>
+						</div>
+					</div>
+					<div class="clearfix"></div>
+				</div>
+				<div class="detalis-grids" style="height:630px;">
+
+
+
+
+
+	<div class="w3layoutscontaineragileits">
+
+
+
+
+
+  <div class="panel-heading">
+                    <span class="glyphicon glyphicon-comment"></span> Chat
+
+                </div>
+				<div class="panel-body">
+                    <ul class="chat">
+                        <li class="left clearfix"><span class="chat-img pull-left">
+                          <img src="https://s3.amazonaws.com/uifaces/faces/twitter/fffabs/128.jpg" class="img-circle" alt="Cinque Terre" width="50" height="50">
+                        </span>
+                            <div class="chat-body clearfix">
+                                <div class="header">
+                                    <strong class="primary-font">Raphael</strong> <small class="pull-right text-muted">
+                                        <span class="glyphicon glyphicon-time"></span>12 mins ago</small>
+                                </div>
+                                <p>Bonjour, est ce que c'est possible de me chercher à porte de poste? merci d'avance
+                                </p>
+                            </div>
+                        </li>
+
+
+                        <li class="right clearfix"><span class="chat-img pull-right">
+
+							<img class="img-circle border-effect" src="images/pic3.png" alt=" " width="80" height="80">
+                        </span>
+                            <div class="chat-body clearfix">
+                                <div class="header">
+                                    <small class=" text-muted"><span class="glyphicon glyphicon-time"></span>1 mins ago</small>
+                                    <strong class="pull-right primary-font">Robert La porte</strong>
+                                </div>
+                                <p>
+								bonjour, desole je fais pas de detour.
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+				<div class="panel-footer">
+                    <div class="input-group">
+                        <input id="btn-input" type="text" class="form-control input-sm" placeholder="Ecrire votre message ici..." />
+                        <span class="input-group-btn">
+                            <button class="btn btn-warning btn-sm" id="btn-chat">
+                                Envoyer</button>
+                        </span>
+                    </div>
+                </div>
+
+
+
+
+
+
+  </div>
+	</div>
+
+  <br/>
+
+
+
+
+
+
+
+
+
+
+
+
+          <div class="clearfix"></div>
+<script src="js/jquery.nicescroll.js"></script>
+<script src="js/scripts.js"></script>
+</body>
+</html>

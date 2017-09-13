@@ -1,0 +1,18 @@
+.pic_ina
+{
+    height:90px;
+    width:30%;
+    float:left;
+}
+.con_ina
+{
+    height:100px;
+    width:67%;
+    margin-left:3%;
+    float:left;
+}
+.btn_inr
+{
+    float:right;
+    margine-top:25px;
+}

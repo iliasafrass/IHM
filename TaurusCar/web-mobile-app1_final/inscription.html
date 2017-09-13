@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Head -->
+<head>
+
+<title>Taurus Car, votre application de covoiturage</title>
+
+<!-- Meta-Tags -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //Meta-Tags -->
+
+<!-- Style --> <link rel="stylesheet" href="css/style1.css" type="text/css" media="all">
+
+<!-- Fonts -->
+<link href="//fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+<link href="css/font-awesome.min.css" rel="stylesheet">
+<!-- //Fonts -->
+<!--default-js-->
+<!--bootstrap-js-->
+	<script src="js/bootstrap.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script type="text/javascript">
+	(function( $ ){
+   $.fn.loadPage = function() {
+     if($( "#type option:selected" ).text() == "Passager"){
+			document.getElementById('fo').action = "single-passager.html"
+		}else if($( "#type option:selected" ).text() == "Conducteur"){
+			document.getElementById('fo').action = "single.html"
+		}
+      return this;
+	   };
+	})( jQuery );
+
+	</script>
+</head>
+<!-- //Head -->
+
+<!-- Body -->
+<body>
+
+	<h1>INSCRIPTION</h1>
+	<div class="w3layoutscontaineragileits">
+		<form method="post" id="fo" action="" onsubmit="return $('#fo').loadPage();">
+			<input type="radio" class="radio" name="optradio"/><label>Homme</label>
+			<input type="radio" class="radio" name="optradio"/><label>Femme</label>
+			<br>
+			<br>
+			<label> Type de profil :<select class = "form-control" id="type" value="Type de profil" style="width:130px;">
+				<option>Passager</option>
+				<option>Conducteur</option>
+			</select></label><br><br>
+			<input type="text" Name="Userame" placeholder="PSEUDO" required="">
+			<input type="text" Name="Userame" placeholder="EMAIL" required="">
+			<input type="password" Name="Password" placeholder="MOT DE PASSE" required="">
+			<ul class="agileinfotickwthree">
+				<li>
+					<input type="checkbox" id="brand1" value="">
+					<label for="brand1"><span></span>Se souvenir</label>
+				</li>
+			</ul>
+			<div class="aitssendbuttonw3ls">
+				<input type="submit" id="sub" value="S'inscrire">
+				<div class="clear"></div>
+			</div>
+		</form>
+	</div>
+
+	<footer style="margin-top:px">
+		<p>&copy; 2017 Taurus Car,tous les droits reserves</p>
+	</footer>
+
+</body>
+<!-- //Body -->
+
+</html>
